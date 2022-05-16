@@ -1,0 +1,186 @@
+* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@300&display=swap');  
+  
+box-sizing: border-box;
+padding: 0;
+scroll-behavior:smooth;
+font-family:'Montserrat', sans-serif;
+  margin:0;
+}
+
+.nav {
+  height:80px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:#9E6B89;
+  color:#7C587F;
+  box-shadow: 0 2px 0 .3px;
+  z-index:10;
+}
+
+.nav ul {
+  list-style-type: none;
+  text-color:#EEC4CE;
+}
+
+
+.nav-bar {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 25em) {
+  .nav {
+    justify-content: center;
+  }
+  .nav-bar {
+    margin: 0 1rem;
+  }
+}
+
+.nav-bar li a {
+  color:#EAD4DE;
+}
+
+.nav-bar a {
+  display: block;
+  font-size: 1.7rem;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+.nav-bar a:hover {
+  background-color:#5A4C5F;
+
+  }
+
+#welcome-section {
+   padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+.part1 {
+  background-color:#6B899E;
+  display:block;
+   top: 0;
+  left: 0;
+  width: 100%;
+  padding-top:15em;
+}
+
+.part2 {
+  background-color:#AD848E;
+ display:block;
+ top: 0;
+  left: 0;
+ width: 100%;
+  padding-top:20em;
+ padding-bottom:10em;
+
+  text-align:center;
+}
+.part3 {
+  background-color:#6C5566;
+ display:block;
+ top: 0;
+  left: 0;
+ width: 100%;
+padding-top:5em;
+  padding-bottom:10em;
+  text-align:center;
+}
+
+.hey {
+  text-align:center;
+font-size:100px;
+  color:white;
+  position:relative;
+  top:150px;
+}
+
+.name {
+  text-align:center;
+  padding-top:20px;
+  color:#D5ACBD;
+  font-size:40px;
+  position:relative;
+  top:150px;
+}
+
+.here {
+  text-align:center;
+  position:relative;
+  bottom:200px;
+  font-size:60px;
+  color:white;
+}
+
+.click {
+  position:relative;
+  bottom:170px;
+  font-size:30px;
+  color:white;
+}
+
+img {
+  display: inline-block;
+  float: none;
+ 
+}
+
+.project-img {
+  display:inline-block;
+  width:300px;
+  height:400px;
+}
+
+.link-text {
+  color:white;
+}
+
+a {
+  text-decoration:none;
+}
+
+table {
+  position:relative;
+  bottom:40px;
+}
+
+.hi {
+  color:white;
+  font-size:75px;
+  padding:15px;
+}
+
+.reach {
+  color:white;
+  font-size:30px;
+ font-weight:100;
+}
+
+.socialmedia {
+  padding-top:40px;
+}
+
+
+.button {
+  background-color: #6B899E;
+  border:none;
+  border-radius:100px;
+  width:125px;
+  color: white;
+  padding: 18px 24px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.button:hover {opacity: 1}
